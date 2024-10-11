@@ -1,0 +1,5 @@
+stpy @ git+https://github.com/PaulEibensteiner/stpy@paul-dev
+sensepy @ git+https://github.com/PaulEibensteiner/sensepy@paul-dev
+ipykernel
+contextily
+kaggle
