@@ -7,8 +7,6 @@ import numpy as np
 
 import pandas as pd
 import os
-from kaggle.api.kaggle_api_extended import KaggleApi
-from stpy.borel_set import BorelSet
 import torch
 import importlib.resources
 
@@ -17,6 +15,22 @@ data_path = Path(__file__).parent / "data"
 
 if not os.path.exists(data_path):
     os.makedirs(data_path)
+
+
+def get_grid(discretization, left, down, right, up):
+    # Create evenly spaced values
+    x = torch.linspace(left, right, discretization, dtype=torch.float64)
+    y = torch.linspace(down, up, discretization, dtype=torch.float64)
+
+    # Create a grid of 2D points
+    grid_x, grid_y = torch.meshgrid(x, y, indexing="ij")
+
+    # Stack the grid to create a tensor of shape (discretization, discretization, 2)
+    grid = torch.stack([grid_x, grid_y], dim=-1)
+
+    # Reshape the grid to have shape (discretization * discretization, 2)
+    xtest = grid.view(-1, 2)
+    return xtest
 
 
 def timing(f):
@@ -31,6 +45,7 @@ def timing(f):
     return wrap
 
 
+""" 
 def kaggle_download(path: Path, name: str):
     api = KaggleApi()
     api.authenticate()
@@ -56,18 +71,22 @@ def kaggle_download(path: Path, name: str):
                 with zipfile.ZipFile(path / file, "r") as zip_ref:
                     zip_ref.extractall(path)
                 os.remove(path / file)
+                
+"""
 
 
-def get_taxi_data(subsample: int, D: BorelSet) -> tuple[list, geopandas.GeoDataFrame]:
-    with importlib.resources.open_text(
+def get_taxi_data(subsample: int) -> tuple[list, geopandas.GeoDataFrame]:
+    """with importlib.resources.open_text(
         "sensepy.benchmarks.data", "taxi_data.csv"
     ) as file:
+        df = pd.read_csv(file)"""
+    with open(data_path / "taxi_data.csv", "r") as file:
         df = pd.read_csv(file)
 
-    df = df[df["Longitude"] < -8.580]
-    df = df[df["Longitude"] > -8.64]
-    df = df[df["Latitude"] > 41.136]
-    df = df[df["Latitude"] < 41.17]
+    df = df[df["Longitude"] < -8.0]
+    df = df[df["Longitude"] > -9.0]
+    df = df[df["Latitude"] > 41.0]
+    df = df[df["Latitude"] < 42.0]
     df = df.head(subsample)
 
     g = geopandas.points_from_xy(df.Longitude, df.Latitude)
@@ -110,4 +129,4 @@ def get_taxi_data(subsample: int, D: BorelSet) -> tuple[list, geopandas.GeoDataF
     # time section of the dataset in minutes
     dt = (df["Date"].max() - df["Date"].min()).seconds // 60
     # This data apparently is one single sample??
-    return [(D, torch.from_numpy(obs), dt)], gdf
+    return torch.from_numpy(obs), dt, gdf
