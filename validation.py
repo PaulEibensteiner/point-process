@@ -141,8 +141,8 @@ def check_approx_squared_integral_difference(
     squared_integral_difference = (
         weights
         * (
-            poisson_process.rate(nodes, dt)
-            - poisson_process_approx.rate_value(nodes, dt).squeeze(1)
+            poisson_process.rate(nodes, 1)
+            - poisson_process_approx.rate_value(nodes, 1).squeeze(1)
         )
         ** 2
     ).sum()
