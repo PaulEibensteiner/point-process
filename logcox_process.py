@@ -143,7 +143,7 @@ class LogCoxProcess:
 
         self.alpha_opt = torch.tensor(res.x)
 
-        def intensity(x: torch.tensor, dt):
+        def intensity(x: torch.tensor, dt=1):
             k_obs = torch.cat((k_func(x), self.dt.unsqueeze(1) * k_int(x)))
             return dt * torch.exp(torch.tensor(res.x) @ k_obs).unsqueeze(1)
 
@@ -169,8 +169,8 @@ class LogCoxProcess:
         for _ in tqdm(range(max_it), desc="Optimizing gamma"):
             optimizer.zero_grad()
             loss = -f(gamma)  # we minimize -f because we want to maximize f
-            if loss.item() > prev_loss:
-                print("Warning: Loss did not decrease")
+            # if loss.item() > prev_loss:
+            #     print("Warning: Loss did not decrease")
             prev_loss = loss.item()
             loss.backward()
             # If gradient is smaller than eps, return
