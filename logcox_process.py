@@ -119,7 +119,7 @@ class LogCoxProcess:
             )
 
             regularizer = alpha.T @ k_big @ alpha
-            return -lkl_term_1 + lkl_term_2 + regularizer  # * 0.5
+            return -lkl_term_1 + lkl_term_2 + regularizer * 0.5
 
         alpha_0 = torch.zeros([len(self.observations) + len(self.a_x)])
         res = minimize(
@@ -144,7 +144,7 @@ class LogCoxProcess:
         self.alpha_opt = torch.tensor(res.x)
 
         def intensity(x: torch.tensor, dt):
-            k_obs = torch.cat((k_func(x), k_int(x)))
+            k_obs = torch.cat((k_func(x), self.dt.unsqueeze(1) * k_int(x)))
             return dt * torch.exp(torch.tensor(res.x) @ k_obs).unsqueeze(1)
 
         self.rate_value = intensity
