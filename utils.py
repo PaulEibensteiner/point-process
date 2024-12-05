@@ -83,10 +83,10 @@ def get_taxi_data(subsample: int) -> tuple[list, geopandas.GeoDataFrame]:
     with open(data_path / "taxi_data.csv", "r") as file:
         df = pd.read_csv(file)
 
-    df = df[df["Longitude"] < -8.0]
-    df = df[df["Longitude"] > -9.0]
-    df = df[df["Latitude"] > 41.0]
-    df = df[df["Latitude"] < 42.0]
+    df = df[df["Longitude"] < -8.580]
+    df = df[df["Longitude"] > -8.64]
+    df = df[df["Latitude"] > 41.136]
+    df = df[df["Latitude"] < 41.17]
     df = df.head(subsample)
 
     g = geopandas.points_from_xy(df.Longitude, df.Latitude)
