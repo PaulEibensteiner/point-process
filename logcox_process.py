@@ -151,7 +151,7 @@ class LogCoxProcess:
 
         return intensity
 
-    def get_gamma_MAP(self, n, x, a, lr=0.01, max_it=10000, eps=1e-6):
+    def get_gamma_MAP(self, n, x, a, dt, lr=0.01, max_it=10000, eps=1e-6):
         mean = 0
         cov_Y = self.kernel(x, x)
         Q = sqrt(cov_Y)
@@ -159,7 +159,7 @@ class LogCoxProcess:
 
         def f(arg):
             y = arg @ Q + mean
-            return (-0.5) * arg.pow(2).sum() + (y * n - torch.exp(y) * a).sum()
+            return (-0.5) * arg.pow(2).sum() + (y * n - torch.exp(y) * a * dt).sum()
 
         gamma = torch.zeros(len(x), dtype=torch.float64, requires_grad=True)
         optimizer = torch.optim.SGD([gamma], lr=lr)
@@ -187,7 +187,7 @@ class LogCoxProcess:
 
         return gamma.detach()
 
-    def sample_mala(self, n, x, a, h, num_steps, burn_in_steps, initial_gamma=None):
+    def sample_mala(self, n, x, a, dt, h, num_steps, burn_in_steps, initial_gamma=None):
         # param n is 1d tensor with the counts of points in the cells
         # param x is the discretization of the area we're interested in
         # param a is either a 2d tensor with the areas of the discretization
@@ -200,21 +200,26 @@ class LogCoxProcess:
         self.Q = Q
         accept_prob_sum = 0
 
+        # The log posterior over gamma given the data
+        def log_f(arg):
+            y = arg @ Q + mean
+            return (-0.5) * arg.pow(2).sum() + (y * n - torch.exp(y) * a * dt).sum()
+
+        base_line = log_f(gamma)
+
+        def f(arg):
+            return log_f(arg)  # - 2 * base_line
+
+        # Gradient of the energy
+        def grad(arg):
+            y = arg @ Q + mean
+            return -arg + (n - torch.exp(y) * a * dt) @ Q.T
+
+        # mean of the proposal distribution, named \xi in paper
+        def r_mean_given_arg(arg):
+            return arg + (h / 2.0) * grad(arg)
+
         for i in range(num_steps):
-            # The log posterior over gamma given the data
-            def log_f(arg):
-                y = arg @ Q + mean
-                return (-0.5) * arg.pow(2).sum() + (y * n - torch.exp(y) * a).sum()
-
-            # Gradient of the energy
-            def grad(arg):
-                y = arg @ Q + mean
-                return -arg + (n - torch.exp(y) * a) @ Q.T
-
-            # mean of the proposal distribution, named \xi in paper
-            def r_mean_given_arg(arg):
-                return arg + (h / 2.0) * grad(arg)
-
             # Proposal
             proposal = torch.distributions.MultivariateNormal(
                 loc=r_mean_given_arg(gamma),
@@ -222,11 +227,11 @@ class LogCoxProcess:
             ).sample()
 
             accept_prob = torch.exp(
-                log_f(proposal)
+                f(proposal)
                 - (gamma - r_mean_given_arg(proposal)).pow(2).sum() / (2 * h)
             ) / (
                 torch.exp(
-                    log_f(gamma)
+                    f(gamma)
                     - (proposal - r_mean_given_arg(gamma)).pow(2).sum() / (2 * h)
                 )
             )
