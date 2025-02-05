@@ -1,4 +1,5 @@
 from typing import Optional, Tuple
+import numpy as np
 from stpy.borel_set import BorelSet
 from stpy.point_processes.poisson.poisson import PoissonPointProcess
 from stpy.point_processes.rate_estimator import RateEstimator
@@ -7,7 +8,6 @@ import torch
 device = torch.get_default_device()
 
 # Assume: Data drawn by 0-mean truncated GP intensity with RBF kernel
-from stpy.continuous_processes.gauss_procc import GaussianProcess
 from stpy.helpers.posterior_sampling import tmg
 import matplotlib.pyplot as plt
 
@@ -42,6 +42,8 @@ def check_approx_squared_integral_difference(
     Returns:
         torch.Tensor: The integral of the squared difference between the two functions.
     """
+
+    weights, nodes = domain.return_legendre_discretization(discretization_integral_diff)
     if dataset is None:
         print("Sampling from the Ground Truth Poisson Process")
         dataset = poisson_process.sample_discretized(
@@ -58,7 +60,6 @@ def check_approx_squared_integral_difference(
         "Approximating the integral of the squared difference between the ground truth"
         " intensity and its approximation"
     )
-    weights, nodes = domain.return_legendre_discretization(discretization_integral_diff)
     weights = weights.to(device)
     nodes = nodes.to(device)
     squared_integral_difference = (
@@ -78,6 +79,7 @@ def plot_approximation(
     poisson_process_approx: RateEstimator,
     domain: BorelSet,
     dataset,
+    discretized_domain=None,
 ):
     gp = poisson_process.rate
     bounds = domain.bounds
@@ -86,9 +88,14 @@ def plot_approximation(
     fig, axs = plt.subplots(1, 3, figsize=(18, 6))
 
     # Extract x and y coordinates
-    x_coords = gp.x_acc[:, 0].cpu().numpy()
-    y_coords = gp.x_acc[:, 1].cpu().numpy()
-    function_values = gp.y_acc.cpu().numpy()
+    if discretized_domain is None:
+        x_coords = gp.x_acc[:, 0].cpu().numpy()
+        y_coords = gp.x_acc[:, 1].cpu().numpy()
+        function_values = gp.y_acc.cpu().numpy()
+    else:
+        x_coords = discretized_domain[:, 0].cpu().numpy()
+        y_coords = discretized_domain[:, 1].cpu().numpy()
+        function_values = poisson_process.rate(discretized_domain, 1).cpu().numpy()
 
     # Create scatter plot with color gradient
     sc1 = axs[0].scatter(x_coords, y_coords, c=function_values, cmap="viridis")
@@ -115,7 +122,13 @@ def plot_approximation(
     axs[1].set_ylim(bounds[1][0].item(), bounds[1][1].item())
 
     # Plot approximation, in the same color scale as ground truth
-    function_values = poisson_process_approx.rate_value(gp.x_acc, 1).cpu().numpy()
+    function_values = (
+        poisson_process_approx.rate_value(
+            gp.x_acc if discretized_domain is None else discretized_domain, 1
+        )
+        .cpu()
+        .numpy()
+    )
 
     # Create scatter plot with color gradient
     sc2 = axs[2].scatter(

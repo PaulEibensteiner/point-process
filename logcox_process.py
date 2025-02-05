@@ -74,7 +74,6 @@ class LogCoxProcess:
             k_nodes.append(k_n)
             k_factors.append(dt)
 
-        # integral matrix won't be symmetric! Is this a problem? Try out by mirroring
         k_int_int = []
         for A, dt in self.areas:
             weights, nodes = A.return_legendre_discretization(

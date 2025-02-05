@@ -19,8 +19,8 @@ if not os.path.exists(data_path):
 
 def get_grid(discretization, left, down, right, up):
     # Create evenly spaced values
-    x = torch.linspace(left, right, discretization, dtype=torch.float64)
-    y = torch.linspace(down, up, discretization, dtype=torch.float64)
+    x = torch.linspace(left, right, discretization)
+    y = torch.linspace(down, up, discretization)
 
     # Create a grid of 2D points
     grid_x, grid_y = torch.meshgrid(x, y, indexing="ij")
@@ -75,7 +75,9 @@ def kaggle_download(path: Path, name: str):
 """
 
 
-def get_taxi_data(subsample: int) -> tuple[list, geopandas.GeoDataFrame]:
+def get_taxi_data(
+    subsample: int | None, dtype=np.float64
+) -> tuple[list, geopandas.GeoDataFrame]:
     """with importlib.resources.open_text(
         "sensepy.benchmarks.data", "taxi_data.csv"
     ) as file:
@@ -87,14 +89,15 @@ def get_taxi_data(subsample: int) -> tuple[list, geopandas.GeoDataFrame]:
     df = df[df["Longitude"] > -8.64]
     df = df[df["Latitude"] > 41.136]
     df = df[df["Latitude"] < 41.17]
-    df = df.head(subsample)
+    if subsample is not None:
+        df = df.head(subsample)
 
     g = geopandas.points_from_xy(df.Longitude, df.Latitude)
     gdf = geopandas.GeoDataFrame(df, geometry=g)  # type: ignore
     gdf.crs = "EPSG:4326"
 
     # cleaning nans
-    obs = df.values[:, [1, 2]].astype(float)
+    obs = df.values[:, [1, 2]].astype(dtype)
     obs = obs[~np.isnan(obs)[:, 0], :]
 
     x_max = np.max(obs[:, 0])  # longitude
