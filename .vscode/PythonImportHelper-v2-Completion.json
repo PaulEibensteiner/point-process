@@ -1,0 +1,1051 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "mosek",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mosek",
+        "description": "mosek",
+        "detail": "mosek",
+        "documentation": {}
+    },
+    {
+        "label": "KernelFunction",
+        "importPath": "stpy.kernels",
+        "description": "stpy.kernels",
+        "isExtraImport": true,
+        "detail": "stpy.kernels",
+        "documentation": {}
+    },
+    {
+        "label": "KernelFunction",
+        "importPath": "stpy.kernels",
+        "description": "stpy.kernels",
+        "isExtraImport": true,
+        "detail": "stpy.kernels",
+        "documentation": {}
+    },
+    {
+        "label": "KernelFunction",
+        "importPath": "stpy.kernels",
+        "description": "stpy.kernels",
+        "isExtraImport": true,
+        "detail": "stpy.kernels",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "scipy.spatial",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scipy.spatial",
+        "description": "scipy.spatial",
+        "detail": "scipy.spatial",
+        "documentation": {}
+    },
+    {
+        "label": "Voronoi",
+        "importPath": "scipy.spatial",
+        "description": "scipy.spatial",
+        "isExtraImport": true,
+        "detail": "scipy.spatial",
+        "documentation": {}
+    },
+    {
+        "label": "in_box",
+        "importPath": "voronoi",
+        "description": "voronoi",
+        "isExtraImport": true,
+        "detail": "voronoi",
+        "documentation": {}
+    },
+    {
+        "label": "voronoi",
+        "importPath": "voronoi",
+        "description": "voronoi",
+        "isExtraImport": true,
+        "detail": "voronoi",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "minimize",
+        "importPath": "autograd_minimize",
+        "description": "autograd_minimize",
+        "isExtraImport": true,
+        "detail": "autograd_minimize",
+        "documentation": {}
+    },
+    {
+        "label": "minimize",
+        "importPath": "autograd_minimize",
+        "description": "autograd_minimize",
+        "isExtraImport": true,
+        "detail": "autograd_minimize",
+        "documentation": {}
+    },
+    {
+        "label": "cvxpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cvxpy",
+        "description": "cvxpy",
+        "detail": "cvxpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "scipy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "scipy",
+        "description": "scipy",
+        "detail": "scipy",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "holoviews",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "holoviews",
+        "description": "holoviews",
+        "detail": "holoviews",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "panel",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "panel",
+        "description": "panel",
+        "detail": "panel",
+        "documentation": {}
+    },
+    {
+        "label": "param",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "param",
+        "description": "param",
+        "detail": "param",
+        "documentation": {}
+    },
+    {
+        "label": "Pipe",
+        "importPath": "holoviews.streams",
+        "description": "holoviews.streams",
+        "isExtraImport": true,
+        "detail": "holoviews.streams",
+        "documentation": {}
+    },
+    {
+        "label": "RangeXY",
+        "importPath": "holoviews.streams",
+        "description": "holoviews.streams",
+        "isExtraImport": true,
+        "detail": "holoviews.streams",
+        "documentation": {}
+    },
+    {
+        "label": "Selection1D",
+        "importPath": "holoviews.streams",
+        "description": "holoviews.streams",
+        "isExtraImport": true,
+        "detail": "holoviews.streams",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE_M",
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "isExtraImport": true,
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "RateImage",
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "isExtraImport": true,
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "get_job_manager",
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "isExtraImport": true,
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "get_job_manager",
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "isExtraImport": true,
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "lonlat_to_mercator",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_zueri_wie_neu_data",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "lonlat_to_mercator",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "mercator_to_lonlat",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "NMFBatchHALS",
+        "importPath": "nmf.nmf_models",
+        "description": "nmf.nmf_models",
+        "isExtraImport": true,
+        "detail": "nmf.nmf_models",
+        "documentation": {}
+    },
+    {
+        "label": "BorelSet",
+        "importPath": "stpy.borel_set",
+        "description": "stpy.borel_set",
+        "isExtraImport": true,
+        "detail": "stpy.borel_set",
+        "documentation": {}
+    },
+    {
+        "label": "HierarchicalBorelSets",
+        "importPath": "stpy.borel_set",
+        "description": "stpy.borel_set",
+        "isExtraImport": true,
+        "detail": "stpy.borel_set",
+        "documentation": {}
+    },
+    {
+        "label": "BorelSet",
+        "importPath": "stpy.borel_set",
+        "description": "stpy.borel_set",
+        "isExtraImport": true,
+        "detail": "stpy.borel_set",
+        "documentation": {}
+    },
+    {
+        "label": "BorelSet",
+        "importPath": "stpy.borel_set",
+        "description": "stpy.borel_set",
+        "isExtraImport": true,
+        "detail": "stpy.borel_set",
+        "documentation": {}
+    },
+    {
+        "label": "PoissonRateEstimator",
+        "importPath": "stpy.point_processes.poisson_rate_estimator",
+        "description": "stpy.point_processes.poisson_rate_estimator",
+        "isExtraImport": true,
+        "detail": "stpy.point_processes.poisson_rate_estimator",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "partial",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "zipfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "geopandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "geopandas",
+        "description": "geopandas",
+        "detail": "geopandas",
+        "documentation": {}
+    },
+    {
+        "label": "importlib.resources",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "importlib.resources",
+        "description": "importlib.resources",
+        "detail": "importlib.resources",
+        "documentation": {}
+    },
+    {
+        "label": "PoissonPointProcess",
+        "importPath": "stpy.point_processes.poisson.poisson",
+        "description": "stpy.point_processes.poisson.poisson",
+        "isExtraImport": true,
+        "detail": "stpy.point_processes.poisson.poisson",
+        "documentation": {}
+    },
+    {
+        "label": "RateEstimator",
+        "importPath": "stpy.point_processes.rate_estimator",
+        "description": "stpy.point_processes.rate_estimator",
+        "isExtraImport": true,
+        "detail": "stpy.point_processes.rate_estimator",
+        "documentation": {}
+    },
+    {
+        "label": "tmg",
+        "importPath": "stpy.helpers.posterior_sampling",
+        "description": "stpy.helpers.posterior_sampling",
+        "isExtraImport": true,
+        "detail": "stpy.helpers.posterior_sampling",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"point-process\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"bin\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"point-process\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"point-process\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"point-process\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"point-process\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"../lib/python3.12/site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.bin.activate_this",
+        "description": ".venv.bin.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.bin.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "NaivePPPEstimator",
+        "kind": 6,
+        "importPath": "estimators.non-working.naive_ppp_estimator",
+        "description": "estimators.non-working.naive_ppp_estimator",
+        "peekOfCode": "class NaivePPPEstimator:\n    def __init__(self, kernel_object: KernelFunction):\n        self.kernel_object = kernel_object\n        self.kernel = kernel_object.kernel\n    def load_data(self, A, x: torch.Tensor):\n        self.observations = x.numpy()\n        self.A = A\n    def approximate_kernel_matrix(self, x, num_features):\n        return self.kernel(x, x)\n    def fit(self, roi: torch.Tensor, noise_variance=1e-5):",
+        "detail": "estimators.non-working.naive_ppp_estimator",
+        "documentation": {}
+    },
+    {
+        "label": "poly_area",
+        "kind": 2,
+        "importPath": "estimators.non-working.naive_ppp_estimator",
+        "description": "estimators.non-working.naive_ppp_estimator",
+        "peekOfCode": "def poly_area(x, y):\n    return 0.5 * np.abs(np.dot(x, np.roll(y, 1)) - np.dot(y, np.roll(x, 1)))\ndef get_weights(points, a):\n    bounds = [\n        a.bounds[0][0].item(),\n        a.bounds[0][1].item(),\n        a.bounds[1][0].item(),\n        a.bounds[1][1].item(),\n    ]\n    # bounds: [x_min, x_max, y_min, y_max]",
+        "detail": "estimators.non-working.naive_ppp_estimator",
+        "documentation": {}
+    },
+    {
+        "label": "get_weights",
+        "kind": 2,
+        "importPath": "estimators.non-working.naive_ppp_estimator",
+        "description": "estimators.non-working.naive_ppp_estimator",
+        "peekOfCode": "def get_weights(points, a):\n    bounds = [\n        a.bounds[0][0].item(),\n        a.bounds[0][1].item(),\n        a.bounds[1][0].item(),\n        a.bounds[1][1].item(),\n    ]\n    # bounds: [x_min, x_max, y_min, y_max]\n    vor = voronoi(points, bounds)\n    areas = np.zeros(len(points))",
+        "detail": "estimators.non-working.naive_ppp_estimator",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "estimators.non-working.naive_ppp_estimator",
+        "description": "estimators.non-working.naive_ppp_estimator",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef poly_area(x, y):\n    return 0.5 * np.abs(np.dot(x, np.roll(y, 1)) - np.dot(y, np.roll(x, 1)))\ndef get_weights(points, a):\n    bounds = [\n        a.bounds[0][0].item(),\n        a.bounds[0][1].item(),\n        a.bounds[1][0].item(),\n        a.bounds[1][1].item(),\n    ]",
+        "detail": "estimators.non-working.naive_ppp_estimator",
+        "documentation": {}
+    },
+    {
+        "label": "in_box",
+        "kind": 2,
+        "importPath": "estimators.non-working.voronoi",
+        "description": "estimators.non-working.voronoi",
+        "peekOfCode": "def in_box(towers: np.ndarray, bounding_box: list[float]):\n    return np.logical_and(\n        np.logical_and(\n            bounding_box[0] <= towers[:, 0] + eps, towers[:, 0] <= bounding_box[1] + eps\n        ),\n        np.logical_and(\n            bounding_box[2] <= towers[:, 1] + eps, towers[:, 1] <= bounding_box[3] + eps\n        ),\n    )\ndef voronoi(towers: np.ndarray, bounding_box: list[float]):",
+        "detail": "estimators.non-working.voronoi",
+        "documentation": {}
+    },
+    {
+        "label": "voronoi",
+        "kind": 2,
+        "importPath": "estimators.non-working.voronoi",
+        "description": "estimators.non-working.voronoi",
+        "peekOfCode": "def voronoi(towers: np.ndarray, bounding_box: list[float]):\n    # Select towers inside the bounding box\n    i = in_box(towers, bounding_box)\n    # Mirror points\n    points_center = towers[i, :]\n    points_left = np.copy(points_center)\n    points_left[:, 0] = bounding_box[0] - (points_left[:, 0] - bounding_box[0])\n    points_right = np.copy(points_center)\n    points_right[:, 0] = bounding_box[1] + (bounding_box[1] - points_right[:, 0])\n    points_down = np.copy(points_center)",
+        "detail": "estimators.non-working.voronoi",
+        "documentation": {}
+    },
+    {
+        "label": "centroid_region",
+        "kind": 2,
+        "importPath": "estimators.non-working.voronoi",
+        "description": "estimators.non-working.voronoi",
+        "peekOfCode": "def centroid_region(vertices):\n    # Polygon's signed area\n    A = 0\n    # Centroid's x\n    C_x = 0\n    # Centroid's y\n    C_y = 0\n    for i in range(0, len(vertices) - 1):\n        s = vertices[i, 0] * vertices[i + 1, 1] - vertices[i + 1, 0] * vertices[i, 1]\n        A = A + s",
+        "detail": "estimators.non-working.voronoi",
+        "documentation": {}
+    },
+    {
+        "label": "eps",
+        "kind": 5,
+        "importPath": "estimators.non-working.voronoi",
+        "description": "estimators.non-working.voronoi",
+        "peekOfCode": "eps = 1e-3\ndef in_box(towers: np.ndarray, bounding_box: list[float]):\n    return np.logical_and(\n        np.logical_and(\n            bounding_box[0] <= towers[:, 0] + eps, towers[:, 0] <= bounding_box[1] + eps\n        ),\n        np.logical_and(\n            bounding_box[2] <= towers[:, 1] + eps, towers[:, 1] <= bounding_box[3] + eps\n        ),\n    )",
+        "detail": "estimators.non-working.voronoi",
+        "documentation": {}
+    },
+    {
+        "label": "ReportList",
+        "kind": 6,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "class ReportList(pn.custom.JSComponent):\n    \"\"\"Chronological list of reports; ``selected`` scrolls the entry into view.\"\"\"\n    items = param.List(default=[])\n    selected = param.Integer(default=-1)\n    _esm = \"\"\"\n    export function render({ model, el }) {\n      const list = document.createElement(\"div\")\n      list.className = \"report-list\"\n      el.appendChild(list)\n      function highlight(scroll) {",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "get_reports",
+        "kind": 2,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "def get_reports() -> pd.DataFrame:\n    gdf = get_job_manager().model.gdf\n    x, y = lonlat_to_mercator(gdf.geometry.x.values, gdf.geometry.y.values)\n    df = pd.DataFrame(\n        {\n            \"x\": x,\n            \"y\": y,\n            \"date\": pd.to_datetime(gdf[\"requested_datetime\"]),\n            \"title\": gdf[\"title\"].fillna(\"\"),\n            \"detail\": gdf[\"detail\"]",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "kind": 2,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "def create_app():\n    jm = get_job_manager()\n    reports = get_reports()\n    doc = pn.state.curdoc\n    bx0, by0, bx1, by1 = jm.model.mercator_bounds\n    # --- widgets ---\n    lock = pn.widgets.Switch(name=\"Lock view\", value=False)\n    progress = pn.indicators.Progress(value=0, max=100, sizing_mode=\"stretch_width\")\n    status = pn.pane.Str(\"\")\n    report_list = ReportList(sizing_mode=\"stretch_both\", min_height=400)",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "BASEMAPS",
+        "kind": 5,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "BASEMAPS = {\n    \"OpenStreetMap\": \"https://tile.openstreetmap.org/{Z}/{X}/{Y}.png\",\n    \"swisstopo grey\": \"https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.pixelkarte-grau/\"\n    \"default/current/3857/{Z}/{X}/{Y}.jpeg\",\n    \"swisstopo aerial\": \"https://wmts.geo.admin.ch/1.0.0/ch.swisstopo.swissimage/\"\n    \"default/current/3857/{Z}/{X}/{Y}.jpeg\",\n}\nDEBOUNCE_S = 0.3\nHEAT_ALPHA = 0.6\n# fixed color scale in expected reports per year per cell, higher values are clipped",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "DEBOUNCE_S",
+        "kind": 5,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "DEBOUNCE_S = 0.3\nHEAT_ALPHA = 0.6\n# fixed color scale in expected reports per year per cell, higher values are clipped\nHEAT_MAX = 25.0\n# viridis: low values dark blue/purple, high values yellow\nHEAT_CMAP = \"viridis\"\n# area unit of the density, CELL_SIZE_M x CELL_SIZE_M\nCELL_UNIT = f\"{(CELL_SIZE_M / 1000) ** 2:g} km²\"\n@pn.cache\ndef get_reports() -> pd.DataFrame:",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "HEAT_ALPHA",
+        "kind": 5,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "HEAT_ALPHA = 0.6\n# fixed color scale in expected reports per year per cell, higher values are clipped\nHEAT_MAX = 25.0\n# viridis: low values dark blue/purple, high values yellow\nHEAT_CMAP = \"viridis\"\n# area unit of the density, CELL_SIZE_M x CELL_SIZE_M\nCELL_UNIT = f\"{(CELL_SIZE_M / 1000) ** 2:g} km²\"\n@pn.cache\ndef get_reports() -> pd.DataFrame:\n    gdf = get_job_manager().model.gdf",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "HEAT_MAX",
+        "kind": 5,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "HEAT_MAX = 25.0\n# viridis: low values dark blue/purple, high values yellow\nHEAT_CMAP = \"viridis\"\n# area unit of the density, CELL_SIZE_M x CELL_SIZE_M\nCELL_UNIT = f\"{(CELL_SIZE_M / 1000) ** 2:g} km²\"\n@pn.cache\ndef get_reports() -> pd.DataFrame:\n    gdf = get_job_manager().model.gdf\n    x, y = lonlat_to_mercator(gdf.geometry.x.values, gdf.geometry.y.values)\n    df = pd.DataFrame(",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "HEAT_CMAP",
+        "kind": 5,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "HEAT_CMAP = \"viridis\"\n# area unit of the density, CELL_SIZE_M x CELL_SIZE_M\nCELL_UNIT = f\"{(CELL_SIZE_M / 1000) ** 2:g} km²\"\n@pn.cache\ndef get_reports() -> pd.DataFrame:\n    gdf = get_job_manager().model.gdf\n    x, y = lonlat_to_mercator(gdf.geometry.x.values, gdf.geometry.y.values)\n    df = pd.DataFrame(\n        {\n            \"x\": x,",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_UNIT",
+        "kind": 5,
+        "importPath": "graffiti_app",
+        "description": "graffiti_app",
+        "peekOfCode": "CELL_UNIT = f\"{(CELL_SIZE_M / 1000) ** 2:g} km²\"\n@pn.cache\ndef get_reports() -> pd.DataFrame:\n    gdf = get_job_manager().model.gdf\n    x, y = lonlat_to_mercator(gdf.geometry.x.values, gdf.geometry.y.values)\n    df = pd.DataFrame(\n        {\n            \"x\": x,\n            \"y\": y,\n            \"date\": pd.to_datetime(gdf[\"requested_datetime\"]),",
+        "detail": "graffiti_app",
+        "documentation": {}
+    },
+    {
+        "label": "Cancelled",
+        "kind": 6,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "class Cancelled(Exception):\n    pass\n@dataclass\nclass RateImage:\n    \"\"\"Rate on a regular Web Mercator grid with pixel edges (x0, y0, x1, y1), sampled\n    at the pixel centers, Z[row, col] with row along increasing y.\"\"\"\n    job_id: int\n    x0: float\n    y0: float\n    x1: float",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "RateImage",
+        "kind": 6,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "class RateImage:\n    \"\"\"Rate on a regular Web Mercator grid with pixel edges (x0, y0, x1, y1), sampled\n    at the pixel centers, Z[row, col] with row along increasing y.\"\"\"\n    job_id: int\n    x0: float\n    y0: float\n    x1: float\n    y1: float\n    Z: np.ndarray  # expected reports per year per CELL_SIZE_M x CELL_SIZE_M cell\nclass GraffitiModel:",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "GraffitiModel",
+        "kind": 6,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "class GraffitiModel:\n    def __init__(\n        self,\n        service_code: str | None = \"Graffiti\",\n        gamma: float = 0.2,\n        kappa: float = 1.0,\n        m: int = 25,\n        levels: int = 8,\n        roi_resolution: int = 30,\n        roi_num_basis_functions: int = 9,",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "FitJobManager",
+        "kind": 6,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "class FitJobManager:\n    \"\"\"Runs fits of a GraffitiModel on one worker thread. A new ``submit`` cancels\n    the running job at its next checkpoint and starts over.\n    Progress is estimated from the elapsed time of each stage relative to how long\n    that stage took before, since the NMF inside the basis stage cannot report\n    progress. Listeners are called from background threads.\"\"\"\n    def __init__(self, model: GraffitiModel):\n        self.model = model\n        self.job_id = 0\n        self._pending: tuple | None = None",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "pixel_centers",
+        "kind": 2,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "def pixel_centers(a: float, b: float, n: int) -> np.ndarray:\n    edges = np.linspace(a, b, n + 1)\n    return (edges[:-1] + edges[1:]) / 2\nclass Cancelled(Exception):\n    pass\n@dataclass\nclass RateImage:\n    \"\"\"Rate on a regular Web Mercator grid with pixel edges (x0, y0, x1, y1), sampled\n    at the pixel centers, Z[row, col] with row along increasing y.\"\"\"\n    job_id: int",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "get_job_manager",
+        "kind": 2,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "def get_job_manager() -> FitJobManager:\n    \"\"\"The job manager shared by the whole process. The first call loads the data\n    and starts the initial global fit on the worker thread.\"\"\"\n    global _job_manager\n    with _job_manager_lock:\n        if _job_manager is None:\n            device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n            # the default device is thread local, set it for the calling thread\n            torch.set_default_device(device)\n            torch.set_default_dtype(torch.float64)",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "NMF_MAX_ITER",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "NMF_MAX_ITER = 100\n# run_nmf has no callback, so hook into its HALS iterations to report progress and\n# to cancel. Only the worker thread runs NMF, so a module level hook is enough.\n_nmf_iteration_hook: Callable[[], None] | None = None\n_hals_update_W = NMFBatchHALS._update_W\ndef _hals_update_W_with_hook(self):\n    _hals_update_W(self)\n    if _nmf_iteration_hook is not None:\n        _nmf_iteration_hook()\nNMFBatchHALS._update_W = _hals_update_W_with_hook",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "_hals_update_W",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "_hals_update_W = NMFBatchHALS._update_W\ndef _hals_update_W_with_hook(self):\n    _hals_update_W(self)\n    if _nmf_iteration_hook is not None:\n        _nmf_iteration_hook()\nNMFBatchHALS._update_W = _hals_update_W_with_hook\n# length of the edge of the square cell that \"expected reports per year\" refers to\nCELL_SIZE_M = 1000.0\nEARTH_RADIUS_M = 6371008.8\ndef pixel_centers(a: float, b: float, n: int) -> np.ndarray:",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "NMFBatchHALS._update_W",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "NMFBatchHALS._update_W = _hals_update_W_with_hook\n# length of the edge of the square cell that \"expected reports per year\" refers to\nCELL_SIZE_M = 1000.0\nEARTH_RADIUS_M = 6371008.8\ndef pixel_centers(a: float, b: float, n: int) -> np.ndarray:\n    edges = np.linspace(a, b, n + 1)\n    return (edges[:-1] + edges[1:]) / 2\nclass Cancelled(Exception):\n    pass\n@dataclass",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "CELL_SIZE_M",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "CELL_SIZE_M = 1000.0\nEARTH_RADIUS_M = 6371008.8\ndef pixel_centers(a: float, b: float, n: int) -> np.ndarray:\n    edges = np.linspace(a, b, n + 1)\n    return (edges[:-1] + edges[1:]) / 2\nclass Cancelled(Exception):\n    pass\n@dataclass\nclass RateImage:\n    \"\"\"Rate on a regular Web Mercator grid with pixel edges (x0, y0, x1, y1), sampled",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "EARTH_RADIUS_M",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "EARTH_RADIUS_M = 6371008.8\ndef pixel_centers(a: float, b: float, n: int) -> np.ndarray:\n    edges = np.linspace(a, b, n + 1)\n    return (edges[:-1] + edges[1:]) / 2\nclass Cancelled(Exception):\n    pass\n@dataclass\nclass RateImage:\n    \"\"\"Rate on a regular Web Mercator grid with pixel edges (x0, y0, x1, y1), sampled\n    at the pixel centers, Z[row, col] with row along increasing y.\"\"\"",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "BASIS_SHARE",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "BASIS_SHARE = 1 / 3\n# initial guess of the stage durations in seconds, replaced by measurements\nSTAGE_SECONDS = {\"build\": 30.0, \"basis\": 5.0, \"data\": 1.0, \"fit\": 1.0, \"render\": 0.2}\nPROGRESS_INTERVAL_S = 0.2\nclass FitJobManager:\n    \"\"\"Runs fits of a GraffitiModel on one worker thread. A new ``submit`` cancels\n    the running job at its next checkpoint and starts over.\n    Progress is estimated from the elapsed time of each stage relative to how long\n    that stage took before, since the NMF inside the basis stage cannot report\n    progress. Listeners are called from background threads.\"\"\"",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "STAGE_SECONDS",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "STAGE_SECONDS = {\"build\": 30.0, \"basis\": 5.0, \"data\": 1.0, \"fit\": 1.0, \"render\": 0.2}\nPROGRESS_INTERVAL_S = 0.2\nclass FitJobManager:\n    \"\"\"Runs fits of a GraffitiModel on one worker thread. A new ``submit`` cancels\n    the running job at its next checkpoint and starts over.\n    Progress is estimated from the elapsed time of each stage relative to how long\n    that stage took before, since the NMF inside the basis stage cannot report\n    progress. Listeners are called from background threads.\"\"\"\n    def __init__(self, model: GraffitiModel):\n        self.model = model",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "PROGRESS_INTERVAL_S",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "PROGRESS_INTERVAL_S = 0.2\nclass FitJobManager:\n    \"\"\"Runs fits of a GraffitiModel on one worker thread. A new ``submit`` cancels\n    the running job at its next checkpoint and starts over.\n    Progress is estimated from the elapsed time of each stage relative to how long\n    that stage took before, since the NMF inside the basis stage cannot report\n    progress. Listeners are called from background threads.\"\"\"\n    def __init__(self, model: GraffitiModel):\n        self.model = model\n        self.job_id = 0",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "_job_manager_lock",
+        "kind": 5,
+        "importPath": "graffiti_model",
+        "description": "graffiti_model",
+        "peekOfCode": "_job_manager_lock = threading.Lock()\ndef get_job_manager() -> FitJobManager:\n    \"\"\"The job manager shared by the whole process. The first call loads the data\n    and starts the initial global fit on the worker thread.\"\"\"\n    global _job_manager\n    with _job_manager_lock:\n        if _job_manager is None:\n            device = torch.device(\"cuda\" if torch.cuda.is_available() else \"cpu\")\n            # the default device is thread local, set it for the calling thread\n            torch.set_default_device(device)",
+        "detail": "graffiti_model",
+        "documentation": {}
+    },
+    {
+        "label": "LogCoxProcess",
+        "kind": 6,
+        "importPath": "logcox_process",
+        "description": "logcox_process",
+        "peekOfCode": "class LogCoxProcess:\n    def __init__(self, kernel_object: KernelFunction, integral_discretization: int):\n        self.kernel_object = kernel_object\n        self.kernel = kernel_object.kernel\n        self.integral_discretization = integral_discretization\n    def load_data(self, data: List):\n        # only works with 2d data!\n        observations = []\n        self.areas = []\n        dts = []",
+        "detail": "logcox_process",
+        "documentation": {}
+    },
+    {
+        "label": "sqrt",
+        "kind": 2,
+        "importPath": "logcox_process",
+        "description": "logcox_process",
+        "peekOfCode": "def sqrt(matrix: torch.Tensor) -> torch.Tensor:\n    return torch.from_numpy(\n        np.real(scipy.linalg.sqrtm(matrix.cpu().numpy() + 1e-5))\n    ).to(device)\nclass LogCoxProcess:\n    def __init__(self, kernel_object: KernelFunction, integral_discretization: int):\n        self.kernel_object = kernel_object\n        self.kernel = kernel_object.kernel\n        self.integral_discretization = integral_discretization\n    def load_data(self, data: List):",
+        "detail": "logcox_process",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "logcox_process",
+        "description": "logcox_process",
+        "peekOfCode": "device = torch.get_default_device()\ndef sqrt(matrix: torch.Tensor) -> torch.Tensor:\n    return torch.from_numpy(\n        np.real(scipy.linalg.sqrtm(matrix.cpu().numpy() + 1e-5))\n    ).to(device)\nclass LogCoxProcess:\n    def __init__(self, kernel_object: KernelFunction, integral_discretization: int):\n        self.kernel_object = kernel_object\n        self.kernel = kernel_object.kernel\n        self.integral_discretization = integral_discretization",
+        "detail": "logcox_process",
+        "documentation": {}
+    },
+    {
+        "label": "Num_data_points",
+        "kind": 5,
+        "importPath": "tryout",
+        "description": "tryout",
+        "peekOfCode": "Num_data_points = 50000  # Use all data\nnumpy_dtype = np.float64\nobs, dt, gdf = get_taxi_data(Num_data_points, dtype=numpy_dtype)",
+        "detail": "tryout",
+        "documentation": {}
+    },
+    {
+        "label": "numpy_dtype",
+        "kind": 5,
+        "importPath": "tryout",
+        "description": "tryout",
+        "peekOfCode": "numpy_dtype = np.float64\nobs, dt, gdf = get_taxi_data(Num_data_points, dtype=numpy_dtype)",
+        "detail": "tryout",
+        "documentation": {}
+    },
+    {
+        "label": "get_grid",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_grid(discretization, left, down, right, up):\n    # Create evenly spaced values\n    x = torch.linspace(left, right, discretization)\n    y = torch.linspace(down, up, discretization)\n    # Create a grid of 2D points\n    grid_x, grid_y = torch.meshgrid(x, y, indexing=\"ij\")\n    # Stack the grid to create a tensor of shape (discretization, discretization, 2)\n    grid = torch.stack([grid_x, grid_y], dim=-1)\n    # Reshape the grid to have shape (discretization * discretization, 2)\n    xtest = grid.view(-1, 2)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "timing",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def timing(f):\n    @wraps(f)\n    def wrap(*args, **kw):\n        ts = time.process_time()\n        result = f(*args, **kw)\n        te = time.process_time()\n        print(f\"func:{f.__name__} args:{args} took: {te-ts:.4f} sec\")\n        return result\n    return wrap\n\"\"\" ",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "kaggle_download",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def kaggle_download(path: Path, name: str):\n    api = KaggleApi()\n    api.authenticate()\n    if not os.path.exists(path):\n        os.makedirs(path)\n    # Create the download directory if it doesn't exist\n    if not os.path.exists(path / \"train.csv\"):\n        api.competition_download_files(\n            name,\n            path=path,",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_taxi_data",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_taxi_data(\n    subsample: int | None, dtype=np.float64\n) -> tuple[list, geopandas.GeoDataFrame]:\n    with importlib.resources.open_text(\n        \"sensepy.benchmarks.data\", \"taxi_data.csv\"\n    ) as file:\n        df = pd.read_csv(file)\n    df = df[df[\"Longitude\"] < -8.580]\n    df = df[df[\"Longitude\"] > -8.64]\n    df = df[df[\"Latitude\"] > 41.136]",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_zueri_wie_neu_data",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def get_zueri_wie_neu_data(\n    subsample: int | None, dtype=np.float64, service_code: str | None = None\n) -> tuple[torch.Tensor, float, geopandas.GeoDataFrame]:\n    \"\"\"Reports of damaged infrastructure in Zurich\n    (https://data.stadt-zuerich.ch/dataset/geo_zueri_wie_neu).\n    Returns observations scaled to [-1,1]^2, the observed time span in days\n    and the GeoDataFrame in EPSG:4326.\n    \"\"\"\n    path = data_path / \"zueri_wie_neu.geojson\"\n    if not os.path.exists(path):",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "lonlat_to_mercator",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def lonlat_to_mercator(lon, lat):\n    \"\"\"EPSG:4326 degrees to EPSG:3857 meters.\"\"\"\n    x = WEB_MERCATOR_RADIUS * np.deg2rad(lon)\n    y = WEB_MERCATOR_RADIUS * np.log(np.tan(np.pi / 4 + np.deg2rad(lat) / 2))\n    return x, y\ndef mercator_to_lonlat(x, y):\n    \"\"\"EPSG:3857 meters to EPSG:4326 degrees.\"\"\"\n    lon = np.rad2deg(x / WEB_MERCATOR_RADIUS)\n    lat = np.rad2deg(2 * np.arctan(np.exp(y / WEB_MERCATOR_RADIUS)) - np.pi / 2)\n    return lon, lat",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "mercator_to_lonlat",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def mercator_to_lonlat(x, y):\n    \"\"\"EPSG:3857 meters to EPSG:4326 degrees.\"\"\"\n    lon = np.rad2deg(x / WEB_MERCATOR_RADIUS)\n    lat = np.rad2deg(2 * np.arctan(np.exp(y / WEB_MERCATOR_RADIUS)) - np.pi / 2)\n    return lon, lat",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "data_path",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "data_path = Path(__file__).parent / \"data\"\nif not os.path.exists(data_path):\n    os.makedirs(data_path)\ndef get_grid(discretization, left, down, right, up):\n    # Create evenly spaced values\n    x = torch.linspace(left, right, discretization)\n    y = torch.linspace(down, up, discretization)\n    # Create a grid of 2D points\n    grid_x, grid_y = torch.meshgrid(x, y, indexing=\"ij\")\n    # Stack the grid to create a tensor of shape (discretization, discretization, 2)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "ZUERI_WIE_NEU_WFS",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "ZUERI_WIE_NEU_WFS = (\n    \"https://www.ogd.stadt-zuerich.ch/wfs/geoportal/Zueri_wie_neu\"\n    \"?service=WFS&version=1.1.0&request=GetFeature&typename=zwn_meldungen_p\"\n    \"&outputFormat=GeoJSON&srsName=EPSG:4326\"\n)\ndef get_zueri_wie_neu_data(\n    subsample: int | None, dtype=np.float64, service_code: str | None = None\n) -> tuple[torch.Tensor, float, geopandas.GeoDataFrame]:\n    \"\"\"Reports of damaged infrastructure in Zurich\n    (https://data.stadt-zuerich.ch/dataset/geo_zueri_wie_neu).",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "WEB_MERCATOR_RADIUS",
+        "kind": 5,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "WEB_MERCATOR_RADIUS = 6378137.0\ndef lonlat_to_mercator(lon, lat):\n    \"\"\"EPSG:4326 degrees to EPSG:3857 meters.\"\"\"\n    x = WEB_MERCATOR_RADIUS * np.deg2rad(lon)\n    y = WEB_MERCATOR_RADIUS * np.log(np.tan(np.pi / 4 + np.deg2rad(lat) / 2))\n    return x, y\ndef mercator_to_lonlat(x, y):\n    \"\"\"EPSG:3857 meters to EPSG:4326 degrees.\"\"\"\n    lon = np.rad2deg(x / WEB_MERCATOR_RADIUS)\n    lat = np.rad2deg(2 * np.arctan(np.exp(y / WEB_MERCATOR_RADIUS)) - np.pi / 2)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_approx_squared_integral_difference",
+        "kind": 2,
+        "importPath": "validation",
+        "description": "validation",
+        "peekOfCode": "def check_approx_squared_integral_difference(\n    poisson_process: PoissonPointProcess,\n    poisson_process_approx: RateEstimator,\n    domain: BorelSet,\n    discretization_ppp_sampling: int,\n    discretization_integral_diff: int,\n    dt=1,\n    dataset: Optional[torch.Tensor] = None,\n) -> Tuple[torch.Tensor, torch.Tensor]:\n    \"\"\"",
+        "detail": "validation",
+        "documentation": {}
+    },
+    {
+        "label": "plot_approximation",
+        "kind": 2,
+        "importPath": "validation",
+        "description": "validation",
+        "peekOfCode": "def plot_approximation(\n    poisson_process: PoissonPointProcess,\n    poisson_process_approx: RateEstimator,\n    domain: BorelSet,\n    dataset,\n    discretized_domain=None,\n):\n    gp = poisson_process.rate\n    bounds = domain.bounds\n    # Plot 'ground truth' truncated gp",
+        "detail": "validation",
+        "documentation": {}
+    },
+    {
+        "label": "device",
+        "kind": 5,
+        "importPath": "validation",
+        "description": "validation",
+        "peekOfCode": "device = torch.get_default_device()\n# Assume: Data drawn by 0-mean truncated GP intensity with RBF kernel\nfrom stpy.helpers.posterior_sampling import tmg\nimport matplotlib.pyplot as plt\ndef check_approx_squared_integral_difference(\n    poisson_process: PoissonPointProcess,\n    poisson_process_approx: RateEstimator,\n    domain: BorelSet,\n    discretization_ppp_sampling: int,\n    discretization_integral_diff: int,",
+        "detail": "validation",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,39 @@
+[project]
+name = "point-process"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+	"stpy[torch-2-11-cu128]",
+	"sensepy[torch-2-11-cu128]",
+	"ipykernel",
+	"contextily",
+	"kaggle",
+	"jupyterlab>=4.6.4",
+	"notebook>=7.6.3",
+	"ipywidgets>=8.1.9",
+	"ipympl>=0.10.0",
+	"panel>=1.9.4",
+	"holoviews>=1.23.2",
+	"bokeh>=3.9.2",
+	"colorcet>=3.2.1",
+]
+
+[tool.uv.sources]
+stpy = { path = "../stpy", editable = true }
+sensepy = { path = "../sensepy", editable = true }
+	torch = { index = "pytorch-cu128" }
+	torch-cluster = { index = "pyg-cu128" }
+
+[tool.uv]
+environments = ["sys_platform == 'linux'"]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[[tool.uv.index]]
+name = "pyg-cu128"
+url = "https://data.pyg.org/whl/torch-2.11.0%2Bcu128.html"
+format = "flat"
+explicit = true
